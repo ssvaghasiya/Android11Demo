@@ -14,11 +14,32 @@
         android:text="Pick File"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/pickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"
+        android:textAllCaps="false" />
+
     <ImageView
         android:id="@+id/img"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/manageExternalStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage External Storage"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/downloadFromUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:textAllCaps="false" />
 
 </LinearLayout>
